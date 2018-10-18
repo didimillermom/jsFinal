@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Deon's Javascript Practice</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header>
+        <h1>JavaScript is Fun!</h1>
+        <h2>By Deon Miller</h2>
+    </header>
+
+    <h3 class="sectionBanner">Arrays</h3>
+    <p class="color"><span class="tab"></span>There are so many thing that you can do with arrays. An array is a list of
+        like items that you can use to create all kinds of fun things. Let's use an array of colors and a random function to change the background color!
+
+    <h4>Click the button to change the Background color.</h4>
+    <button id="button1">Change</button>
+
+    <p class="color">
+        -<br>
+        -<br>
+        -<br>
+        -<br>
+        -<br>
+
+    </p>
+
+
+    <h3 class="sectionBanner">Dom Manipulation Using createElement and appendChild</h3>
+
+    <p class="hideme color"><span class="tab"></span>Dom stands for Document Object Module. This is a
+        representation of
+        the
+        web page or HTLM
+        that you are working with. It is kind of like a family tree with each of the objects of an HTML page represented.
+        Attached is an image from wikipedia showing and example of DOM Tree: The top Element is the actual HTML
+        Document and is considered to be the root node, next down are the Elements nodes, Text nodes and
+        Attribute nodes. According to <a href="https://developer.mozilla
+                        .org/en-US/docs/Web/API/Node" target="_blank">MDN</a> a node is simply the interface of the element
+        in the DOM.
+    </p>
+
+    <button id="see" onclick="cssManip()">Too Much info?</button><br>
+        <div id="hide1">
+        <img src="images/domModel.png" alt="image of DOM Tree" class="domTree">
+
+        <p class="color">So, when we are talking about modifying the DOM we are talking about modifying objects
+            in an
+            HTLM document. The DOM is not actually part of JavaScript but is a built-in API(application programming
+            interface). </p>
+
+        <p class="color"><a href="https://www.w3schools.com/jsref/dom_obj_document.asp" target="_blank">W3
+            School</a>
+            explains many of the DOM manipulation types and defines createElement "Creates an Element node". It also states
+            that appendChild "Adds a new child node, to an element, as the last child node". As you can see in the previous
+            image, element nodes are part of the tree that are in blue. The child elements would be text nodes or in our
+            case the Element is the UL and the child is the li. Elements are things like "body, paragraphs, lists,and fonts.
+        </p>
+
+        <p class="color">The first thing we will try to do is create a new list item in the Unordered list that has been
+            created in HTML. We will use both the createElement and appendChild methods to change the child of the UL. </p>
+        <br>
+
+
+    <ul><h3>Kinds of Methods of the DOM</h3>
+        <li>document.write()</li>
+        <li>document.getElementById()</li>
+        <li>document.querySelectorAll()</li>
+        <li>document.createTextNode()</li>
+
+    </ul>
+    <!--add a new unordered list here using javascript and this id-->
+    <div id="newUlList"><h3 class="centered">Dom Shortcut Methods</h3></div>
+
+        </div>
+    <script src="arrays.js"></script>
+    <script src="domManipulation.js"></script>
+    <script src="cssManip.js"></script>
+    </body>
+</html>

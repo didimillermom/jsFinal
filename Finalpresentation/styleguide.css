@@ -1,0 +1,250 @@
+/* --------------------------------------------- */
+/* --------- Branding: Color Palette ----------- */
+/* --------------------------------------------- */
+/* These are the colors of the boxes under the Branding section */
+#swatch1{
+    background-color: #2c2c2c;
+}
+#swatch2{
+    background-color: #343839;
+}
+#swatch3{
+    background-color: #756d6d;
+}
+#swatch4{
+    background-color: #ad314a;
+}
+
+/* ----------------------------------------------------- */
+/* --------- Typography: Heading & Body Copy ----------- */
+/* ----------------------------------------------------- */
+/* These are the font families of all the headings and body copy */
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+h1,h2{
+    font-family: 'Raleway', sans-serif;
+}
+
+h3,h4,h5,h6{
+    font-family: 'Palatino Linotype', serif;
+
+}
+
+
+/* -------------------------------------------------- */
+/* --------- Navigation: Main & Secondary ----------- */
+/* -------------------------------------------------- */
+/* Colors, style, floating, shapes, etc of main & secondary navs */
+
+/* Main Navigation Style */
+#mainnav{
+
+}
+#mainnav ul{
+    padding-bottom:5px;
+    border-bottom: solid 4px #ad314a;
+    list-style: none;
+    color: #2c2c2c;
+}
+
+#mainnav li{
+    font-size: 1.5em;
+    color: #2c2c2c;
+    padding: 10px;
+    list-style: none;
+}
+#mainnav a:link{
+    color: #343839;
+    text-decoration: none;
+}
+#mainnav a:visited{
+    color:#756d6d ;
+
+}
+#mainnav a:hover{
+    color: white;
+    background-color: #ad314a;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin: 5px;
+}
+#mainnav a:active{
+    color: #57544c;
+
+}
+
+
+/* Secondary Navigation Style */
+#secondnav{
+    background-color:#848780;
+    color: white;
+
+}
+#secondnav ul{
+
+}
+#secondnav li{
+    list-style: none;
+}
+#secondnav a:link{
+    color: white;
+    text-decoration: none;
+}
+#secondnav a:visited{
+    color: white;
+    padding: 10px;
+    list-style: none;
+    /* other styles */
+}
+#maisecondnavnnav a:hover{
+    color: #f15769;
+    /* other styles */
+}
+#secondnav a:active{
+    color: #57544c;
+    /* other styles */
+}
+
+
+
+
+/* ----------------------------------- */
+/* --------- HTML Elements ----------- */
+/* ----------------------------------- */
+/* Styling for all HTML Elements */
+
+/* True for all headings */
+h1, h2, h3 ,h4, h5, h6{
+    font-family: 'Raleway', sans-serif;
+
+}
+
+
+/* Style for individual headings */
+h1{
+
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+h4{
+
+}
+
+h5{
+
+}
+
+h6{
+
+}
+
+
+/* List Styles */
+ul{
+    color:#2c2c2c;
+}
+ul li{
+    list-style: none;
+}
+
+ol{
+    color:#2c2c2c;
+}
+ol li{
+    list-style: none;
+}
+
+
+/* Non-Navigational Link Styles */
+/* This is for all default links on your page */
+a:link{
+    color:#ad314a;
+}
+a:visited{
+    color:#756d6d;
+}
+a:hover{
+    color:#aca2a8;
+    background-color:#ad314a;
+   }
+a:active{
+    color:#343839;
+}
+
+
+
+/* Paragraph Styles */
+p{
+font-family: "Palatino Linotype",Serif;
+
+}
+
+.wire{
+    max-width: 500px;
+}
+
+/* ------------------------------------- */
+/* --------- Style Guide CSS ----------- */
+/* ------------------------------------- */
+/* The following CSS is used for the styling of the structure of the Style Guide itself */
+body{
+    width: 700px;
+    margin: 10px auto;
+    border: 1px solid #777;
+    padding: 20px;
+}
+
+.styleguide{
+    font-family: "Courier New", Courier, monospace;
+}
+h1.styleguide, h2.styleguide, h3.styleguide, h4.styleguide, h5.styleguide, h6.styleguide{
+    color: #777;
+    font-family: "Courier New", Courier, monospace;
+}
+h2.styleguide{
+    background-color: #777;
+    border-radius: 15px;
+    padding: 15px;
+    margin-left: -15px;
+    color: white;
+}
+p.styleguide{
+    color: #777;
+    font-family: "Courier New", Courier, monospace;
+}
+
+section{
+    margin-top: -10px;
+    margin-bottom: 70px;
+}
+.colorgroup{
+    float: left;
+    width: 170px;
+}
+.colorgroup h4{
+    font-size: .9em;
+}
+.colorgroup p{
+    font-size: .8em;
+}
+.clear{
+    clear: both;
+}
+.swatches{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.twohidden {
+}
